@@ -1,14 +1,23 @@
-
-FROM eclipse-temurin:21-jdk
-
-WORKDIR /app
-
-COPY . .
-
-RUN chmod +x mvnw
-
+# Copy the source code and build the application
+COPY src ./src
 RUN ./mvnw clean package -DskipTests
 
+# Use a Java 23 runtime image to run the application
+FROM eclipse-temurin:23-jre
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the built JAR file from the build stage
+
+#COPY --from=build /app/target/*.jar app.jar
+
+#url-shortener-sb-0.0.1-SNAPSHOT.jar
+
+COPY --from=build /app/target/*.jar app.jar
+
+# Expose port 8080
 EXPOSE 8080
 
-CMD ["java","-jar","target/url-shortener-sb-0.0.1-SNAPSHOT.jar"]
+# Specify the command to run the application
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
