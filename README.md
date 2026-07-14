@@ -1,76 +1,147 @@
-# The Ultimate Java and Spring Boot Mastery Roadmap
+# 🚀 LinkPilot – Smart URL Shortener
 
-Welcome to your one-stop-shop for mastering Java and Spring Boot! This repository offers a comprehensive learning experience with high-quality resources and community support. Dive into over 150+ hours of premium content, with everything you need to excel at Java and Spring Boot development.
+A modern, secure, and scalable **Full Stack URL Shortener** built with **Spring Boot**, **React**, **PostgreSQL**, and **JWT Authentication**. LinkPilot allows users to create, manage, and track shortened URLs through a responsive web interface.
 
-## 🎓 Learning Roadmap
+---
 
-Most of the courses below are available in **Udemy For Business**, so if you have subscription - you can get FREE access.
-Here’s a structured path to enhance your skills with detailed courses available:
+## ✨ Features
 
-1. **[Spring Boot By Building Complex Projects Step by Step](https://link.embarkx.com/spring-boot) (70+ Hours of Content)**
-2. **[Master Spring Boot Microservices](https://link.embarkx.com/microservices) (23+ Hours of Content)**
-3. **[Learn Java with 60+ Hours of Content](http://link.embarkx.com/java) (60+ Hours of Content)**
-4. **[Master Spring Security with React JS + OAuth2](https://link.embarkx.com/spring-security) (34+ Hours of Content)**
-5. **[Master IntelliJ IDEA](http://link.embarkx.com/intellij) (3+ Hours of Content)**
+* 🔐 User Registration & Login
+* 🔑 JWT Authentication & Spring Security
+* 🔗 Create Short URLs
+* 🔄 Redirect to Original URLs
+* ✏️ Update & Delete URLs
+* 📋 Manage All Short Links
+* 📊 Click Analytics
+* ⏳ URL Expiration Support
+* ✅ Input Validation
+* ⚠️ Global Exception Handling
+* 🌐 RESTful APIs
+* 📱 Responsive User Interface
 
+---
 
-## 🌟 With All Our Courses You Gain Access To
+## 🛠 Tech Stack
 
-- 📝 **Notes:** Detailed and downloadable notes to accompany each lesson.
-- 💻 **Source Code:** Full access to the source code used in the tutorials.
-- 🤔 **Doubt Solving:** Responsive instructor and community support.
-- 🎥 **High-Quality HD Videos:** Easy to understand, high-definition video tutorials.
-- 🔄 **Free Lifetime Updates:** Continuous updates to course content at no extra cost.
+### Backend
 
-## 📚 Why Choose This Mastery Series?
+* Java 21
+* Spring Boot
+* Spring Security
+* Spring Data JPA
+* Hibernate
+* JWT
+* Maven
 
-With this series, you're not just learning; you're preparing to dominate the field of Java and Spring Boot development. Our structured learning path ensures that you build your skills progressively, with each course designed to build on the knowledge gained from the previous one.
+### Frontend
 
-### Join Us Now!
+* React
+* Vite
+* JavaScript
+* Axios
+* React Router
 
-Start your journey today to become a master at Java and Spring Boot. Our community and expert instructors are here to support your learning every step of the way. **Enroll and start building your future, today!**
+### Database
 
+* PostgreSQL
 
+### Tools
 
+* Git
+* GitHub
+* IntelliJ IDEA
+* VS Code
+* Postman
+* Render
+* Neon PostgreSQL
 
+---
 
-# Usage Policy for Course Materials
+## 📂 Project Structure
 
-## Instructor Information
+```text
+LinkPilot/
+│
+├── backend/
+│   ├── src/
+│   ├── pom.xml
+│   └── application.properties
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
 
-**Instructor:** Faisal Memon  
-**Company:** [EmbarkX.com](http://www.embarkx.com)
+---
 
-## Policy Overview
+## 🚀 Getting Started
 
-This document outlines the guidelines and restrictions concerning the use of course materials provided by EmbarkX, including but not limited to PDF presentations, code samples, and video tutorials.
+### Clone Repository
 
-### 1. Personal Use Only
+```bash
+git clone https://github.com/RathodLalsingh/LinkPilot.git
+```
 
-The materials provided in this course are intended for **your personal use only**. They are to be used solely for the purpose of learning and completing this course.
+### Backend
 
-### 2. No Unauthorized Sharing or Distribution
+```bash
+cd backend
+mvn clean install
+mvn spring-boot:run
+```
 
-You are **not permitted** to share, distribute, or publicly post any course materials on any websites, social media platforms, or other public forums without prior written consent from the instructor.
+Runs at:
 
-### 3. Intellectual Property
+```text
+http://localhost:8080
+```
 
-All course materials are protected by copyright laws and are the intellectual property of Faisal Memon and EmbarkX. Unauthorized use, reproduction, or distribution of these materials is **strictly prohibited**.
+### Frontend
 
-### 4. Reporting Violations
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-If you become aware of any unauthorized sharing or distribution of course materials, please report it immediately to [embarkxofficial@gmail.com](mailto:embarkxofficial@gmail.com).
+Runs at:
 
-### 5. Legal Action
+```text
+http://localhost:5173
+```
 
-We reserve the right to take legal action against individuals or entities found to be violating this usage policy.
+---
 
-## Thank You
+## 🔐 Authentication
 
-Thank you for respecting these guidelines and helping us maintain the integrity of our course materials.
+* JWT Authentication
+* Spring Security
+* BCrypt Password Encryption
+* Protected REST APIs
 
-## Contact Information
+---
 
-- **Email:** [embarkxofficial@gmail.com](mailto:embarkxofficial@gmail.com)
-- **Website:** [www.embarkx.com](http://www.embarkx.com)
+## 🚀 Deployment
 
+| Service  | Platform         |
+| -------- | ---------------- |
+| Backend  | Render           |
+| Frontend | Vercel / Netlify |
+| Database | Neon PostgreSQL  |
+
+---
+
+## 👨‍💻 Author
+
+**Rathod Lalsingh**
+
+Java Full Stack Developer
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a **⭐ Star** on GitHub.
