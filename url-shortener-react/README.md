@@ -1,8 +1,20 @@
-# React + Vite
+ LinkPilot Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend for the **LinkPilot URL Shortener Platform**, built with **React** and **Vite**. The application provides a clean user interface for creating, managing, and tracking shortened URLs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+
+- 🔐 User Authentication (Login & Register)
+- 🔑 JWT Token Management
+- ✂️ Create Short URLs
+- 🔗 View & Copy Short Links
+- 📋 Manage All URLs
+- ✏️ Update Existing URLs
+- ❌ Delete URLs
+- 📊 URL Analytics Dashboard
+- 📱 Fully Responsive Design
+- 🔍 Search & Filter URLs
+- ⚡ Fast Performance with Vite
+- 🌐 REST API Integration
