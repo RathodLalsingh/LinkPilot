@@ -1,63 +1,93 @@
 # 🚀 LinkPilot – Smart URL Shortener
 
-A modern, secure, and scalable **Full Stack URL Shortener** built with **Spring Boot**, **React**, **PostgreSQL**, and **JWT Authentication**. LinkPilot allows users to create, manage, and track shortened URLs through a responsive web interface.
+> A modern, secure, and scalable **Full Stack URL Shortener** built with **Spring Boot**, **React**, **PostgreSQL**, and **JWT Authentication**. LinkPilot allows users to create, manage, and track shortened URLs through a responsive web interface.
+
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
+![React](https://img.shields.io/badge/React-19-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![JWT](https://img.shields.io/badge/JWT-Authentication-success)
 
 ---
 
-## ✨ Features
+# 📖 Overview
 
-* 🔐 User Registration & Login
-* 🔑 JWT Authentication & Spring Security
-* 🔗 Create Short URLs
-* 🔄 Redirect to Original URLs
-* ✏️ Update & Delete URLs
-* 📋 Manage All Short Links
-* 📊 Click Analytics
-* ⏳ URL Expiration Support
-* ✅ Input Validation
-* ⚠️ Global Exception Handling
-* 🌐 RESTful APIs
-* 📱 Responsive User Interface
+LinkPilot is a secure and scalable full-stack URL shortening platform that enables users to create, manage, and analyze shortened URLs with authentication and click analytics.
 
 ---
 
-## 🛠 Tech Stack
+# ✨ Features
+
+### 🔐 Authentication & Security
+
+- User Registration & Login
+- JWT Authentication
+- Spring Security
+- BCrypt Password Encryption
+- Protected REST APIs
+
+### 🔗 URL Management
+
+- Create Short URLs
+- Redirect to Original URLs
+- Update URLs
+- Delete URLs
+- Manage All Short Links
+
+### 📊 Analytics
+
+- Click Analytics
+- URL Expiration Support
+
+### 🛡 Validation
+
+- Input Validation
+- Global Exception Handling
+- RESTful APIs
+
+### 💻 Frontend
+
+- Responsive User Interface
+
+---
+
+# 🛠 Tech Stack
 
 ### Backend
 
-* Java 21
-* Spring Boot
-* Spring Security
-* Spring Data JPA
-* Hibernate
-* JWT
-* Maven
+- Java 21
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- JWT
+- Maven
 
 ### Frontend
 
-* React
-* Vite
-* JavaScript
-* Axios
-* React Router
+- React
+- Vite
+- JavaScript
+- Axios
+- React Router
 
 ### Database
 
-* PostgreSQL
+- PostgreSQL
 
 ### Tools
 
-* Git
-* GitHub
-* IntelliJ IDEA
-* VS Code
-* Postman
-* Render
-* Neon PostgreSQL
+- Git
+- GitHub
+- IntelliJ IDEA
+- VS Code
+- Postman
+- Render
+- Neon PostgreSQL
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 LinkPilot/
@@ -77,7 +107,7 @@ LinkPilot/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 ### Clone Repository
 
@@ -93,7 +123,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-Runs at:
+Runs on:
 
 ```text
 http://localhost:8080
@@ -107,7 +137,7 @@ npm install
 npm run dev
 ```
 
-Runs at:
+Runs on:
 
 ```text
 http://localhost:5173
@@ -115,33 +145,33 @@ http://localhost:5173
 
 ---
 
-## 🔐 Authentication
+# 🔐 Authentication
 
-* JWT Authentication
-* Spring Security
-* BCrypt Password Encryption
-* Protected REST APIs
+- JWT Authentication
+- Spring Security
+- BCrypt Password Encryption
+- Protected REST APIs
 
 ---
 
-## 🚀 Deployment
+# 🚀 Deployment
 
-| Service  | Platform         |
-| -------- | ---------------- |
-| Backend  | Render           |
+| Service | Platform |
+|----------|----------|
+| Backend | Render |
 | Frontend | Vercel / Netlify |
-| Database | Neon PostgreSQL  |
+| Database | Neon PostgreSQL |
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Rathod Lalsingh**
 
-Java Full Stack Developer
+**Java Full Stack Developer**
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you like this project, consider giving it a **⭐ Star** on GitHub.
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
